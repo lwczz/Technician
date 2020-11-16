@@ -7,21 +7,11 @@ import 'package:technician_car_service_system/components/Navigation/AppBarCompon
 import 'package:technician_car_service_system/components/Other%20Components/ConnectionMySql.dart';
 import 'package:technician_car_service_system/models/Account/classAccountData.dart';
 
-
-
-
-
-
 class ChangePasswordScreen extends StatefulWidget {
 
   @override
   _ChangePasswordScreenState createState() => _ChangePasswordScreenState();
 }
-
-final makeTypes = ["Hyundai","Honda", "Audi", "Ford","Proton"];
-final years = ["2020","2019", "2018", "2017","2016"];
-final ccTypes = ["1","1.1","1.2","1.3","1.4"];
-
 
 List<classAccountTechnicianData> accountDataList=[];
 class _ChangePasswordScreenState extends State<ChangePasswordScreen> {
